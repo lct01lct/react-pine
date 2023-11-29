@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "declaration": true, // 生成声明文件
+    "emitDeclarationOnly": true,
+    // "declarationDir": "./dist", // 声明文件输出目录
+    "outFile": "./dist/index.d.ts",
+    "outDir": "./dist", // JavaScript 文件输出目录,
+    "target": "esnext", // 编译目标为 ES 模块
+    "module": "esnext", // 输出 ES 模块,
+    "jsx": "preserve",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"], // TypeScript 文件所在目录
+  "exclude": ["node_modules", "dist"] // 排除的目录
+}

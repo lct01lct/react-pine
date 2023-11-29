@@ -1,0 +1,22 @@
+{
+  "name": "react-pine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "vite build && tsc"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "keywords": [],
+  "author": "01_lct_01",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "vite": "^5.0.3",
+    "@types/react": "^18.2.39"
+  },
+  "dependencies": {}
+}
